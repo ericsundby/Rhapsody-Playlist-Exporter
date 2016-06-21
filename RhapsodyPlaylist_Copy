@@ -1,0 +1,52 @@
+//----Track/Artist Names (loop)----//
+var songList = document.getElementsByClassName("track-info");
+var song = "";
+var songInfo = "";
+/*Find Length of playlist*/
+var songListLength = document.getElementsByClassName("list");
+var songListLength2 = songList2[0];
+var songListLength3 = songListLength2.childElementCount
+
+for (var track=0;track < songListLength3; track++) {
+	song = songList[track];
+	var songName = song.getElementsByClassName("name");
+	var songName2 = songName[0];
+	var songName3 = songName2.firstElementChild;
+	var songName4 = songName3.attributes;
+	var songName5 = songName4.getNamedItem("title");
+	var songName6 = songName5.value;
+	var artistName = song.getElementsByClassName("artist");
+	var artistName2 = artistName[0];
+	var artistName3 = artistName2.firstElementChild;
+	var artistName4 = artistName3.textContent'
+	songInfo += artistName4 + ',' + songName6;
+}	
+
+console.log(songInfo);
+
+//Track Name
+var songList = document.getElementsByClassName("track-info");
+var song = songList.item(0);
+var songName = song.getElementsByClassName("name");
+var songName2 = songName[0];
+var songName3 = songName2.firstElementChild;
+var songName4 = songName3.attributes;
+var songName5 = songName4.getNamedItem("title");
+var songName6 = songName5.value;
+console.log(songName6);
+
+
+//Artist Name
+var songList = document.getElementsByClassName("track-info");
+var song = songList.item(0);
+var artistName = song.getElementsByClassName("artist");
+var artistName2 = artistName[0];
+var artistName3 = artistName2.firstElementChild;
+var artistName4 = artistName3.textContent;
+console.log(artistName4);
+
+
+//length
+var songListLength = document.getElementsByClassName("list");
+var songListLength2 = songList2[0];
+var SongListLength3 = songListLength2.childElementCount
